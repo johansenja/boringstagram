@@ -28,7 +28,12 @@ more - but without compromising on any of functionality.
 
 ## Installation
 
-TBC
+This is not yet published for the respective extension stores, but you can install a signed version
+from Github.
+
+- Go to [releases](https://github.com/johansenja/boringstagram/releases)
+- Decide the version you want
+- Click "Assets" and then click the extension file (.xpi for firefox, .crx for chrome)
 
 ## Logo attribution
 

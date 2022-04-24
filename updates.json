@@ -1,3 +1,12 @@
 {
-  "addons": {}
+  "addons": {
+    "{64032715-e10f-4954-ba07-de6f7bef7ceb}": {
+      "updates": [
+        {
+          "version": 0.1,
+          "update_link": "https://github.com/johansenja/boringstagram/releases/download/v0.1-firefox/boringstagram-0.1-fx.xpi"
+        }
+      ]
+    }
+  }
 }
