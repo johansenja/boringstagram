@@ -101,7 +101,7 @@ svg[aria-label="New post"] {
 }
 
 svg[aria-label="New post"]::before {
-  content: "New post"
+  content: "New post";
   color: rgba(0,55,107,1); /* TODO: support dark mode */
 }
 
