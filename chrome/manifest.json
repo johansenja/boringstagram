@@ -1,0 +1,21 @@
+{
+  "description": "Make instagram less addictive",
+  "icons": {
+    "16": "b.png",
+    "128": "b.png"
+  },
+  "name": "Boringstagram",
+  "permissions": [],
+  "version": "0.1",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.instagram.com/*"
+      ],
+      "css": [
+        "boringstagram.css"
+      ]
+    }
+  ]
+}

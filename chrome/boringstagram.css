@@ -1,0 +1,116 @@
+article {
+  margin-bottom: 0px !important;
+}
+
+/* show posts inline */
+article:not(:hover) > div {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+}
+
+/* veritcally align post's author information */
+article:not(:hover) > div > div:nth-child(1) {
+  justify-content: space-around
+}
+
+/* for posts with multiple images/videos, hide the dots denoting current post */
+article:not(:hover) > div > div:nth-child(2) > div > div:nth-child(2) {
+  display: none;
+}
+
+/* comments, likes, reactions */
+article:not(:hover) > div > div:nth-child(3) {
+  display: none;
+}
+
+/* hide profile pics for posts */
+article header > div:first-child {
+  display: none;
+}
+
+/* hide profile pics for stories */
+button[aria-label^='Story by'] > div:first-child {
+  display: none;
+}
+
+/* stories container */
+#react-root > section > main > section > div:first-child > div:nth-of-type(2):not(:hover) > div {
+  display: none;
+}
+
+/* view stories prompt */
+#react-root > section > main > section > div:first-child > div:nth-of-type(2):not(:hover)::before {
+  content: "View Stories...";
+  font-size: 14px;
+  color: rgba(0,55,107,1); /* TODO: support dark mode */
+  display: flex;
+  justify-content: center;
+}
+
+
+html:not([class*=" touch "]) #react-root > section > main > section > div:first-child > div:nth-of-type(2) > div > div {
+  justify-content: center;
+}
+
+html:not([class*=" touch "]) #react-root > section > main > section > div:first-child > div:nth-of-type(2) > div > div > div {
+  height: 22px;
+}
+
+/* the username of a story item */
+html:not([class*=" touch "]) #react-root > section > main > section > div:first-child div[data-testid="story-tray-item"] {
+  height: inherit;
+}
+
+/* suggested accounts */
+html:not([class*=" touch "]) #react-root > section > main > section > div:nth-child(3) > div:nth-child(2) {
+  display: none;
+}
+
+/* notifications button */
+a[href^="/accounts/activity"] {
+  margin-left: -42px;
+}
+
+/* notifications button */
+a[href^="/accounts/activity"] svg {
+  display: none;
+}
+
+a[href^="/accounts/activity"]::before {
+  content: "Notifications";
+  color: rgba(0,55,107,1); /* TODO: support dark mode */
+}
+
+/* DMs button */
+a[href^="/direct/inbox"] svg {
+  display: none;
+}
+
+a[href^="/direct/inbox"]::before {
+  content: "Messages";
+}
+
+/* explore page - strictly banned on desktop, no text replacement */ 
+html:not([class*=" touch "]) a[href^="/explore"]{
+  display: none;
+}
+
+/* New post icon */
+svg[aria-label="New post"] {
+  display: none;
+}
+
+svg[aria-label="New post"]::before {
+  content: "New post"
+  color: rgba(0,55,107,1); /* TODO: support dark mode */
+}
+
+/* Instagram logo */
+img[alt="Instagram"] {
+  display: none;
+}
+
+/* home icon */
+nav a[href="/"] svg {
+  display: none;  
+}
