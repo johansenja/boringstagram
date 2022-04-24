@@ -6,7 +6,7 @@
   },
   "name": "Boringstagram",
   "permissions": [],
-  "version": "0.1",
+  "version": "0.1.1",
   "manifest_version": 2,
   "content_scripts": [
     {
@@ -19,8 +19,6 @@
     }
   ],
   "browser_specific_settings": {
-    "gecko": {
-      "update_url": "https://raw.githubusercontent.com/johansenja/boringstagram/master/updates.json"
-    }
+    "gecko": {}
   }
 }
