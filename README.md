@@ -1,4 +1,4 @@
-<img src="./b.png" alt="B logo" height="80">
+<img src="./b.128.png" alt="B logo" height="80">
 
 # Boringstagram
 
