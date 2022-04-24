@@ -4,9 +4,9 @@
 
 ## About
 
-Boringstagram is a Chrome/Firefox extension designed to make instagram - well - more boring. Its
-purpose is to break some of the dark patterns that Instagram employs to keep users coming back for
-more - but without compromising on any of functionality.
+As the name suggests, Boringstagram is a browser extension designed to make instagram more boring. It aims to make the interface and experience deliberately less engaging, so that users are inclined to spend less time using it, or are less likely to develop addictions - all round better for your mental health and productivity.
+
+Best of all, it does not compromise on functionality, so you can still stay up to date with everything your friends are doing!
 
 ## Features
 
