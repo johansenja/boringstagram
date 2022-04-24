@@ -10,10 +10,28 @@ more - but without compromising on any of functionality.
 
 ## Features
 
-- Stories are hidden from the top of the feed by default
-- Profile pictures are also hidden from stories
+#### Blurring is for demonstration only
+
 - Posts in the feed are collapsed by default, to make it deliberately less immersive and also
   quicker to browse
+
+The default feed view
+
+<img src="./screenshots/default_view.png" alt="Default feed view" height="300">
+
+Roll over a post (or touch it on a touch screen) to view it
+
+<img src="./screenshots/expanded_post.png" alt="Expanded post" height="300">
+
+- Stories are hidden from the top of the feed by default
+  - Hover over the top box (or touch it on a touch screen) to show them
+- Profile pictures are also hidden from stories
+  - Blurring is for demonstration only
+
+<img src="./screenshots/hidden_stories.png" alt="Hidden stories" height="300">
+
+<img src="./screenshots/visible_stories.png" alt="Visible stories" height="300">
+
 - The explore page is disabled by default. Never get distracted when you are trying to search for
   something ever again
 - Lightweight and secure by default. This extension is curently css-only and does not read any
