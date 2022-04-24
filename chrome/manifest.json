@@ -1,8 +1,9 @@
 {
   "description": "Make instagram less addictive",
   "icons": {
-    "16": "b.16.png",
-    "128": "b.128.png"
+    "16": "b16.png",
+    "48": "b48.png",
+    "128": "b128.png"
   },
   "name": "Boringstagram",
   "permissions": [],
