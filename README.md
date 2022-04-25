@@ -46,12 +46,19 @@ Roll over a post (or touch it on a touch screen) to view it
 
 ## Installation
 
-This is not yet published for the respective extension stores, but you can install a signed version
-from Github.
+Download it from its respective store:
 
-- Go to [releases](https://github.com/johansenja/boringstagram/releases)
-- Decide the version you want
-- Click "Assets" and then click the extension file (.xpi for firefox, .crx for chrome)
+#### Chrome
+
+[https://chrome.google.com/webstore/detail/boringstagram/doonmkfhjfabfaomehkcgoigghjnonmk](https://chrome.google.com/webstore/detail/boringstagram/doonmkfhjfabfaomehkcgoigghjnonmk)
+
+#### Firefox
+
+[https://addons.mozilla.org/en-GB/firefox/addon/boringstagram/](https://addons.mozilla.org/en-GB/firefox/addon/boringstagram/)
+
+#### Safari
+
+Coming soon, possibly...
 
 ## Logo attribution
 
