@@ -2,6 +2,11 @@ article {
   margin-bottom: 0px !important;
 }
 
+/* non posts in the feed eg suggested accounts */
+main section article + div {
+  display: none;
+}
+
 /* show posts inline */
 article:not(:hover) > div {
   display: grid;

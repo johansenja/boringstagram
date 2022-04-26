@@ -5,10 +5,8 @@
     "128": "b.128.png"
   },
   "name": "Boringstagram",
-  "permissions": [
-    "https://www.instagram.com/*"
-  ],
-  "version": "0.1.2",
+  "permissions": [],
+  "version": "0.2.0",
   "manifest_version": 2,
   "content_scripts": [
     {
